@@ -12,6 +12,11 @@
  * f); System.out.println("String: " + g); System.out.println("Boolean: " + h); } }
  */
 
+
+// *********************************************************************************************
+// *********************************************************************************************
+
+
 // 2. Create a program to swap the values of two variables using a third variable.
 
 /*
@@ -21,3 +26,57 @@
  * " and value of b after swap: " + b); } }
  */
 
+
+
+// *********************************************************************************************
+// *********************************************************************************************
+
+
+// 3.Write a program to demonstrate typecasting by converting a double to an int and an int to a
+// byte.
+
+
+/*
+ * public class Data_Types_and_Variables { public static void main(String[] args) { double a = 10.5;
+ * int b = (int) a; System.out.println("Double to int: " + b); int c = 10; byte d = (byte) c;
+ * System.out.println("Int to byte: " + d); } }
+ */
+
+
+// *********************************************************************************************
+// *********************************************************************************************
+
+// 4.Create a program to check if a given number is within the range of a byte data type.
+
+/*
+ * public class Data_Types_and_Variables { public static void main(String[] args) { int a = 128; if
+ * (a >= Byte.MIN_VALUE && a <= Byte.MAX_VALUE) {
+ * System.out.println("The number is within the range of byte data type."); } else {
+ * System.out.println("The number is not within the range of byte data type."); } } }
+ */
+
+
+// *********************************************************************************************
+// *********************************************************************************************
+
+// 5.Write a program to calculate the area of a circle. Use double for the radius and area.
+
+
+/*
+ * public class Data_Types_and_Variables { public static void main(String[] args) { double radius =
+ * 10.5; double area = Math.PI * radius * radius; System.out.println("Area of the circle is: " +
+ * area); } }
+ */
+
+
+// *********************************************************************************************
+// *********************************************************************************************
+
+// print hello world
+
+
+public class Data_Types_and_Variables {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
